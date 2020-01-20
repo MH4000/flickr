@@ -1,0 +1,10 @@
+#reset{
+ background-color:#ddd;
+ margin-left: 5px;
+}
+.btn-primary{
+	width:inherit;
+}
+h2{
+	margin-top:20px !important;
+}
