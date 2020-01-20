@@ -1,7 +1,7 @@
 If you are working on a server that has node (AWS, Heroku etc) you can git clone the entire repo on the server and then run npm run build there (after npm install). Then you can do something like
 
-### 'npm install -g serve'
-### 'serve -s build'
+### `npm install -g serve`
+### `serve -s build`
 
 The serve module serves static files and you pass the build folder as a parameter.
 
