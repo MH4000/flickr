@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
-//import './App.css';
 import Form from './components/Form/form.js';
 import Images from './components/Images/images.js';
 import 'bootstrap/dist/css/bootstrap.min.css';

@@ -7,8 +7,10 @@ const Images = (props) => {
 			for(let i = 0; i<props.width[j].length;i++){
 				if(props.width[j][i] == props.size){
 					children.push(
-						<div style={{paddingBottom:3 + 'px',paddingTop:2 + 'em'}} className="col-sm-12" key={j}> 
+						<div style={{paddingBottom:3 + 'px',paddingTop:2 + 'em'}} className="col-sm-12" key={j}>
+							<a href={props.link[j][i]}>
 							<img src={props.img[j][i]} alt=""/> 
+							</a>
           	</div>                        
 					)
 				}
