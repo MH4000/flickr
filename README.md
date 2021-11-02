@@ -1,3 +1,12 @@
+If you are working on a server that has node (AWS, Heroku etc) you can git clone the entire repo on the server and then run npm run build there (after npm install). Then you can do something like
+
+### `npm install -g serve`
+### `serve -s build`
+
+The serve module serves static files and you pass the build folder as a parameter.
+
+If you are working on a more old style server like Apache static hosting with cPanel etc then you will need to upload the entire build directory containing static files and index.html.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
